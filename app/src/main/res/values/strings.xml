@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bill Please</string>
+    <string name="amount">Original Amount:</string>
+    <string name="originalAmount">Enter the original amount...</string>
+    <string name="gst">GST:</string>
+    <string name="subbill">Sub total of the bill...</string>
+    <string name="calculate">Calculate</string>
+    <string name="pax">Pax of people:</string>
+    <string name="EnterPax">Enter the number of pax...</string>
+    <string name="nogst">Bill No include GST</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="discount">Discount:</string>
+    <string name="service">Service Charge:</string>
+    <string name="payPer">Pay Per Person:</string>
+    <string name="percentage">Enter Persentage</string>
+</resources>

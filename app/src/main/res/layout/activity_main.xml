@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/amount"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:ems="10"
+            android:hint="@string/originalAmount"
+            android:inputType="number|numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pax"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/pax"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:ems="10"
+            android:hint="@string/EnterPax"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gstView"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/gst"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:id="@+id/gstButton"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:checked="true"
+            android:text="ToggleButton"
+            android:textOff="@string/no"
+            android:textOn="@string/yes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/serviceView"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/service"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:id="@+id/serviceToogle"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:checked="true"
+            android:text="ToggleButton"
+            android:textOff="@string/no"
+            android:textOn="@string/yes" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/discountView"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/discount"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/discountPercentage"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="@string/percentage"
+            android:inputType="numberDecimal" />
+
+        <ToggleButton
+            android:id="@+id/discountButton"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:checked="true"
+            android:text="ToggleButton"
+            android:textOff="@string/no"
+            android:textOn="@string/yes" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/calculate" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/payPerView"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/payPer"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/payPerEdit"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:ems="10"
+            android:hint="Pay Per Person..."
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+</LinearLayout>
